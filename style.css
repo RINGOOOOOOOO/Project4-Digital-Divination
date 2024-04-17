@@ -1,0 +1,73 @@
+@font-face {
+  font-family: printer;
+  src: url("asset/F25_Bank_Printer.ttf");
+}
+
+@font-face {
+  font-family: kangxi;
+  src: url("asset/TypeLand-com-KangXiZiDianTi-ShiYongBan-1.ttf");
+}
+
+body {
+  background-image: url(asset/fuxi-removebg-preview.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+  height: 100vh;
+  overflow: hidden;
+}
+
+#image-container {
+  text-align: center;
+  margin-bottom: 10px;
+  z-index: 1;
+}
+
+#image-container img {
+  width: 55px;
+  height: auto;
+  padding: 10px 20px 10px 34px;
+}
+
+h1 {
+  margin-top: 2.5%;
+  margin-left: 2.5%;
+  font-size: 2rem;
+  color: #433d2f;
+}
+p {
+  font-family: printer;
+  margin-top: 4%;
+  text-align: center;
+  font-size: 0.8rem;
+  color: #433d2f;
+}
+
+#btnDraw {
+  position: absolute;
+  left: 50%;
+  top: calc(45%);
+  transform: translateX(-50%);
+  margin-top: 2.5%;
+  font-family: printer;
+  width: 60px;
+  height: 30px;
+  background-color: rgba(255, 255, 255, 0.55);
+  border-radius: 5px;
+  font-size: 0.8rem;
+  color: #433d2f;
+  cursor: pointer;
+}
+
+.hexagramtable {
+  text-align: center;
+  margin: 1% auto 0 auto;
+}
+
+.hexline {
+  padding: 0;
+  margin: 0;
+}
+.hexline img {
+  display: block;
+}
